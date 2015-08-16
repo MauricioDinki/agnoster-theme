@@ -3,6 +3,8 @@
 This is a theme for zsh that can be installed with
 [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
+It's inspired in this [Agnoster Mod](https://gist.github.com/agnoster/3712874) and [powerlevel9k](https://github.com/bhilburn/powerlevel9k) theme
+
 ## Instalation
 
 * Install [Fantasque Awesome Powerline Font](https://github.com/ztomer/fantasque_awesome_powerline) and select as default font in your terminal emulator
