@@ -10,15 +10,15 @@ FAIL_ICON="\u2718"
 ################################################################
 VIRTUAL_ENV_ICON="🐍"
 
-VCS_GIT_ICON=" "
-VCS_BRANCH_ICON=" "
-VCS_UNTRACKED_ICON=""
-VCS_STAGED_ICON=""
-VCS_UNSTAGED_ICON=""
-VCS_TAG_ICON="  "
-VCS_STASH_ICON="  "
-VCS_INCOMING_CHANGES=" "
-VCS_OUTGOING_CHANGES=" "
+VCS_GIT_ICON="\ue80c  "
+VCS_BRANCH_ICON="\ue822 "
+VCS_UNTRACKED_ICON="\ue16c "
+VCS_STAGED_ICON="\ue168 "
+VCS_UNSTAGED_ICON="\ue17c "
+VCS_TAG_ICON="\ue817 "
+VCS_STASH_ICON="\uE133 "
+VCS_INCOMING_CHANGES="\ue1eb "
+VCS_OUTGOING_CHANGES="\ue1ec "
 
 # COLOR SCHEME
 ################################################################
