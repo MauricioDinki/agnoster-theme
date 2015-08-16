@@ -17,8 +17,8 @@ VCS_STAGED_ICON="\ue168 "
 VCS_UNSTAGED_ICON="\ue17c "
 VCS_TAG_ICON="\ue817 "
 VCS_STASH_ICON="\uE133 "
-VCS_INCOMING_CHANGES="\ue1eb "
-VCS_OUTGOING_CHANGES="\ue1ec "
+VCS_INCOMING_CHANGES="\ue1eb  "
+VCS_OUTGOING_CHANGES="\ue1ec  "
 
 # COLOR SCHEME
 ################################################################
