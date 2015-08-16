@@ -30,3 +30,9 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 You don't need to activate virtualenv, node version, or git plugin
 
 ### Screenshots
+
+![System](http://i738.photobucket.com/albums/xx28/mauriciodinki/Agnoster%20theme%20screenshots/Selection_001_zpsjz2q9mlw.png)
+
+![GitHub](http://i738.photobucket.com/albums/xx28/mauriciodinki/Agnoster%20theme%20screenshots/Selection_002_zpsrtcs2mmv.png)
+
+![Node version](http://i738.photobucket.com/albums/xx28/mauriciodinki/Agnoster%20theme%20screenshots/Selection_003_zpsmyvwwmz1.png)
