@@ -188,7 +188,7 @@ prompt_virtualenv() {
 prompt_node_version() {
   local nvm_prompt=$(node -v 2>/dev/null)
   [[ -z "${nvm_prompt}" ]] && return
-  NODE_ICON=""
+  NODE_ICON="\ue158"
 
   prompt_segment "$0" "green" "white" "$NODE_ICON  ${nvm_prompt:1}"
 }
