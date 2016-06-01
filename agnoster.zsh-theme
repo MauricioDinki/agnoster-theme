@@ -165,9 +165,9 @@ prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
     if [[ $(print -P "%#") == '#' ]]; then
       # Shell runs as root
-      prompt_segment "$0_ROOT" "$DEFAULT_COLOR" "yellow" "$USER@%m"
+      prompt_segment "$0_ROOT" "$DEFAULT_COLOR" "yellow" "@$"
     else
-      prompt_segment "$0_DEFAULT" "$DEFAULT_COLOR" "011" "$USER@%m"
+      prompt_segment "$0_DEFAULT" "$DEFAULT_COLOR" "011" "@$USER"
     fi
   fi
 }
@@ -190,7 +190,7 @@ prompt_node_version() {
   [[ -z "${nvm_prompt}" ]] && return
   NODE_ICON="\ue158"
 
-  prompt_segment "$0" "green" "white" "$NODE_ICON  ${nvm_prompt:1}"
+  prompt_segment "$0" "green" "white" "${nvm_prompt:1}"
 }
 
 
